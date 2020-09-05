@@ -1,6 +1,7 @@
 [![Build Status](https://travis-ci.org/avellar1975/primoj.svg?branch=master)](https://travis-ci.org/avellar1975/primoj)
 [![Updates](https://pyup.io/repos/github/avellar1975/primoj/shield.svg)](https://pyup.io/repos/github/avellar1975/primoj/)
 [![Python 3](https://pyup.io/repos/github/avellar1975/primoj/python-3-shield.svg)](https://pyup.io/repos/github/avellar1975/primoj/)
+[![codecov](https://codecov.io/gh/avellar1975/primoj/branch/master/graph/badge.svg)](https://codecov.io/gh/avellar1975/primoj)
 
 # primoj
 
@@ -106,6 +107,22 @@ pip install nomedopacote
 Instalar o pytest-cov
 Atualizar o requirements-dev.txt
 Atualizar o .traves.yml com o teste com cobertura `pytest -v --cov=primoj`
+Incluir na instalação o codecov e incluir after_success. O arquivo ficará assim:
+```
+ language: python
+  2 python:
+  3   - 3.8
+  4 install:
+  5   - pip install -q -r requirements-dev.txt codecov
+  6 script:
+  7   - flake8 primoj/funcoes.py
+  8   - python -m pytest -v --cov=primoj
+  9 
+ 10 after_success:
+ 11   - codecov
+
+```
+
 Acessar o codecov.io
 
 
