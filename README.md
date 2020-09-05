@@ -46,7 +46,7 @@ python setup.py sdist (cria uma nova distribuição)
 twine upload dist/*
 
 estrutura:
-
+```
 ----projeto
 |   |--projeto.py
 |   |-- __init__.py
@@ -55,3 +55,4 @@ estrutura:
 |README.md
 |setup.py
 |MANIFEST.in
+```
