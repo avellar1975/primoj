@@ -103,6 +103,10 @@ Credenciais do Pypi
 pip install nomedopacote
 
 ## Cobertura de Testes
+Instalar o pytest-cov
+Atualizar o requirements-dev.txt
+Atualizar o .traves.yml com o teste com cobertura `pytest -v --cov=primoj`
+Acessar o codecov.io
 
 
 ## Futuro
