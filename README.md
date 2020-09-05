@@ -24,6 +24,13 @@ setup.py
 ```
 ## Trabalhar com venv
 
+python -m venv .venv
+source .venv/bin/activate
+
+
+## Instalar o flake8
+pip install flake8
+
 Configurar versão no __init__ com o conteudo:
 __version__ = '0.4'
 
