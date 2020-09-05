@@ -2,7 +2,6 @@
 from math import sqrt
 
 
-
 # Crivo de Eratóstenes
 def primos_divisores(numero):
     base = int(sqrt(numero) + 1)
