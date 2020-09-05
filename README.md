@@ -92,18 +92,14 @@ license_file = LICENSE
 ### Criar o arquivo de setup.py
 
 ## Fazendo o upload de nosso projeto no PyPI
+
 pip install twine
 twine upload dist/* (ou uma versão específica pacote-01.zip)
 Credenciais do Pypi
-
-
-
 pip install nomedopacote
 
+## Futuro
 Para criar uma nova versão:
 Atualizar a versão no __init__
-python setup.py sdist (cria uma nova distribuição)
-twine upload dist/*
-
 
 Covcod e Pyup
