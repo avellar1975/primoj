@@ -9,7 +9,7 @@ Criar repositório no GitHub com README, LICENCE e gitignore
 git clone git@github.com:avellar1975/primoj.git
 
 ## Criar a estrutura do projeto
-
+``
 Pasta nome do projeto
 	- Arquivo py com o projeto
 	__init__.py
@@ -21,7 +21,7 @@ Pasta tests
 LICENCE
 README.md
 setup.py
-
+```
 ## Trabalhar com venv
 
 Configurar versão no __init__ com o conteudo:
