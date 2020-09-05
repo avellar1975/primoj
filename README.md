@@ -2,7 +2,7 @@
 
 # primoj
 
-Criação passo-a-passo de uma biblioteca
+Criação passo-a-passo de uma biblioteca para publicação no Pypi, com integração contínua utilizando o travis ci.
 
 ## Criar projeto no git
 Criar repositório no GitHub com README, LICENCE e gitignore
@@ -19,13 +19,13 @@ Pasta nome do projeto
 Pasta tests
 	- Arquivo test_nome.py
 	__init__.py
-
+.gitignore
 LICENCE
 README.md
 setup.py
 ```
-## Trabalhar com venv
 
+## Trabalhar com venv
 python -m venv .venv
 source .venv/bin/activate
 
@@ -33,7 +33,11 @@ source .venv/bin/activate
 pip install flake8
 
 ## Gerar o requirements-dev.txt
+### Ambiente de desenvolvimento:
 pip freeze > requirements-dev.txt
+
+### Dependencias de produção
+requirements.txt
 
 ## Configurar o arquivo .traves.yml
 ```
@@ -47,6 +51,9 @@ script:
   - pytest -v
 ```
 
+## Vincular o repositório no travis ci
+
+
 Configurar versão no __init__ com o conteudo:
 __version__ = '0.4'
 
@@ -57,11 +64,11 @@ Criar o MANIFEST.in com o conteúdo:
 include README.md
 include LICENSE
 
-Gerar o requirements e requirements-dev
+
 
 Trabalhar com branches e pull request
 
-Integração com Travis CI, Covcod e Pyup
+Covcod e Pyup
 
 Criar conta no Pypi
 
