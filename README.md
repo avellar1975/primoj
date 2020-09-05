@@ -102,10 +102,11 @@ twine upload dist/* (ou uma versão específica pacote-01.zip)
 Credenciais do Pypi
 pip install nomedopacote
 
+## Cobertura de Testes
+
+
 ## Futuro
 Para criar uma nova versão:
 Atualizar a versão no __init__
 Configurar versão no __init__ com o conteudo:
 __version__ = '0.4'
-
-Covcod 
