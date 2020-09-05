@@ -1,4 +1,6 @@
 [![Build Status](https://travis-ci.org/avellar1975/primoj.svg?branch=master)](https://travis-ci.org/avellar1975/primoj)
+[![Updates](https://pyup.io/repos/github/avellar1975/primoj/shield.svg)](https://pyup.io/repos/github/avellar1975/primoj/)
+[![Python 3](https://pyup.io/repos/github/avellar1975/primoj/python-3-shield.svg)](https://pyup.io/repos/github/avellar1975/primoj/)
 
 # primoj
 
@@ -70,9 +72,10 @@ script:
 
 ## Vincular o repositório no travis ci
 
+## Upgrade de Dependências
+https://pyup.io/
+Adicionar repositório
 
-Configurar versão no __init__ com o conteudo:
-__version__ = '0.4'
 
 ## Construir o arquivo setup.py
 
@@ -101,5 +104,7 @@ pip install nomedopacote
 ## Futuro
 Para criar uma nova versão:
 Atualizar a versão no __init__
+Configurar versão no __init__ com o conteudo:
+__version__ = '0.4'
 
 Covcod e Pyup
