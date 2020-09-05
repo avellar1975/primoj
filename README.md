@@ -1,3 +1,5 @@
+[![Build Status](https://travis-ci.org/avellar1975/primoj.svg?branch=master)](https://travis-ci.org/avellar1975/primoj)
+
 # primoj
 
 Criação passo-a-passo de uma biblioteca
@@ -27,9 +29,23 @@ setup.py
 python -m venv .venv
 source .venv/bin/activate
 
-
 ## Instalar o flake8
 pip install flake8
+
+## Gerar o requirements-dev.txt
+pip freeze > requirements-dev.txt
+
+## Configurar o arquivo .traves.yml
+```
+language: python
+python:
+  - 3.8
+install:
+  - pip install -q -r requirements-dev.txt
+script:
+  - flake8 primoj/funcoes.py
+  - pytest -v
+```
 
 Configurar versão no __init__ com o conteudo:
 __version__ = '0.4'
