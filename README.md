@@ -74,6 +74,7 @@ script:
 
 ## Upgrade de Dependências
 https://pyup.io/
+
 Adicionar repositório
 
 
@@ -107,4 +108,4 @@ Atualizar a versão no __init__
 Configurar versão no __init__ com o conteudo:
 __version__ = '0.4'
 
-Covcod e Pyup
+Covcod 
