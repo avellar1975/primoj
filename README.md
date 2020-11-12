@@ -19,6 +19,13 @@ Essa biblioteca é conceitual para mostrar como se cria passo-a-passo uma biblio
 
 * ` lista_primos_ate(limite)` - Recebe número inteiro e retorna todos os primos até o número informado no formato de lista.
 
+## Como instalar e utilizar
+
+* Instalar através do comando `pip install primoj`
+* Dentro do programa python ou console python importar a biblioteca `from primoj import funcoes`
+* para chamar uma das funções bastas, por exemplo, digitar `funcoes.lista_primos_ate(100)`
+
+
 # Criação de biblioteca
 
 ## Criar projeto no git
@@ -26,7 +33,7 @@ Criar repositório no GitHub com README, LICENCE e gitignore
 
 ## Clonar o repositório recém criado
 git clone git@github.com:avellar1975/primoj.git
-
+` 
 ## Criar a estrutura do projeto
 ```
 Pasta nome do projeto
