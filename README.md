@@ -9,15 +9,12 @@ Essa biblioteca é conceitual para mostrar como se cria passo-a-passo uma biblio
 
 ## O que faz essa biblioteca
 
-**primoj** (primos em esperanto) trabalhar com 3 funções para utilizar em números primos.
+**primoj** (primos em esperanto) trabalhar com 3 funções para utilizar em números inteiros.
 
 ## Funções
-* `primos_divisores(numero)` - Recebe número inteiro e retorna divisores primos que serão utilizados para verificar se o número é divisível por algum deles. Utilizando o Crivo de Eratóstenes.
-
-
+* `primos_divisores(numero)` - Recebe um número inteiro e retorna os divisores primos que serão utilizados para verificar se o número informado é divisível por algum deles. Utilizando o Crivo de Eratóstenes.
 * `verifica_primo(numero)` - Recebe número inteiro e retorna True para número primo ou False para número não primo.
-
-* ` lista_primos_ate(limite)` - Recebe número inteiro e retorna todos os primos até o número informado no formato de lista.
+* ` lista_primos_ate(limite)` - Recebe um número inteiro e retorna todos os primos até o número informado no formato de lista.
 
 ## Como instalar e utilizar
 
